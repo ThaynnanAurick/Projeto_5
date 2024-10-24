@@ -13,6 +13,13 @@ if hist_button:
 
     st.plotly_chart(fig, user_container_width=True)
 
+elif scatter_button:  
+    st.write("Criando um gráfico de dispersão para o conjunto de dados de anúncio de veículos de vendas de carros")
+
+    fig = px.scatter(car_data, x="odometer", y="price")
+    
+    st.plotly_chart(fig, use_container_width=True)
+
 
 import pandas as pd
 import plotly.express as px
