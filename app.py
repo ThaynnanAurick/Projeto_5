@@ -5,6 +5,7 @@ import streamlit as st
 st.header("Análises de Veículos Usados")
 car_data = pd.read_csv("vehicles.csv.csv")
 hist_button = st.button("Criar histograma de Veículos usados")
+scatter_button = st.button("Criar gráfico de dispersão")
 
 if hist_button:
     st.write("Criando um histograma para o conjunto de dados de anúncio de veiculos de vendas de carros")
