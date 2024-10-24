@@ -5,3 +5,4 @@ Aplicativo que imprime histogramas com dados de veículos a venda.
 # Funcionalidades do aplicativo:
 Multiplos botões que ao serem selecionados exibem informações sobre os anúncios de veículos a venda e tambem exigem histogramas e gráficos interativos.
 # Link para acessar o aplicativo
+https://projeto-do-sprint-5-2.onrender.com/#8315f585
