@@ -7,7 +7,7 @@ car_data = pd.read_csv("vehicles.csv.csv")
 hist_button = st.button("Criar histograma de Veículos usados")
 
 if hist_button:
-    st.white("Criando um histograma para o conjunto de dados de anúncio de veiculos de vendas de carros")
+    st.write("Criando um histograma para o conjunto de dados de anúncio de veiculos de vendas de carros")
 
     fig = px.histogram(car_data, x="odometer")
 
