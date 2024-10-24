@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 
 st.header("Análise de Veículos Usados")
-car_data = pd.read_csv(r"C:\Users\Thaynna\Desktop\Projeto 5\Noteboo\vehicles.csv.csv")
+car_data = pd.read_csv("vehicles.csv.csv")
 hist_button = st.button("Criar histograma de Veículos usados")
 
 if hist_button:
